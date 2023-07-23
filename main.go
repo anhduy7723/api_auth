@@ -1,10 +1,7 @@
-// main.go
-
 package main
 
 import (
 	"context"
-	_"encoding/json"
 	"errors"
 	"net/http"
 	"strings"
@@ -24,7 +21,7 @@ const (
 	redisSessionExpire = time.Hour * 24 * 7 // Redis session expiration time (7 days)
 	redisKeyPrefix     = "user:"
 	redisKeyExpire     = time.Hour * 24    // Redis key expiration time (1 day)
-	secretKey          = "your_secret_key" // Replace with your own secret key for JWT
+	secretKey          = "6379fdsfsadsads" // Replace with your own secret key for JWT
 )
 
 type User struct {
@@ -58,13 +55,13 @@ func main() {
 	})
 	defer redisClient.Close()
 
-	db, err := gorm.Open(mysql.Open("user:password@tcp(localhost:3306)/database"), &gorm.Config{})
+	var err error
+	db, err = gorm.Open(mysql.Open("root:admin@tcp(localhost:3306)/user"), &gorm.Config{})
 	if err != nil {
-		logx.Fatalf("failed to connect to database: %v", err)
+		logx.Error("failed to connect to database: %v", err)
+		return
 	}
 	db.AutoMigrate(&User{})
-
-	ctx := svc.NewServiceContext()
 
 	router := rest.MustNewServer(rest.RestConf{
 		Port: 8080,
@@ -75,7 +72,7 @@ func main() {
 		Method: http.MethodPost,
 		Path:   "/login",
 		Handler: http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-			loginHandler(ctx).ServeHTTP(w, r)
+			loginHandler().ServeHTTP(w, r)
 		}),
 	})
 
@@ -83,7 +80,7 @@ func main() {
 		Method: http.MethodGet,
 		Path:   "/user-info",
 		Handler: http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-			getUserInfoHandler(ctx).ServeHTTP(w, r)
+			getUserInfoHandler().ServeHTTP(w, r)
 		}),
 	})
 
@@ -91,7 +88,7 @@ func main() {
 	router.Start()
 }
 
-func loginHandler(ctx context.Context) http.HandlerFunc {
+func loginHandler() http.HandlerFunc {
 	return func(w http.ResponseWriter, r *http.Request) {
 		var req LoginRequest
 		err := httpx.Parse(r, &req)
@@ -100,7 +97,7 @@ func loginHandler(ctx context.Context) http.HandlerFunc {
 			return
 		}
 
-		user, err := findUserByUsernameAndPassword(ctx, req.Username, req.Password)
+		user, err := findUserByUsernameAndPassword(req.Username, req.Password)
 		if err != nil {
 			httpx.Error(w, errors.New("invalid username or password"))
 			return
@@ -112,7 +109,7 @@ func loginHandler(ctx context.Context) http.HandlerFunc {
 			return
 		}
 
-		err = createRedisSession(ctx, user.ID, token)
+		err = createRedisSession(user.ID, token)
 		if err != nil {
 			httpx.Error(w, err)
 			return
@@ -122,11 +119,14 @@ func loginHandler(ctx context.Context) http.HandlerFunc {
 	}
 }
 
-func findUserByUsernameAndPassword(ctx context.Context, username, password string) (*User, error) {
+func findUserByUsernameAndPassword(username, password string) (*User, error) {
 	var user User
-	if err := db.Where("username = ? AND password = ?", username, password).First(&user).Error; err != nil {
+	query := db.Where("username = ? AND password = ?", username, password)
+	if err := query.First(&user).Error; err != nil {
+		logx.Error("Error executing query: %v", err)
 		return nil, err
 	}
+	logx.Infof("Query: %v", query.Statement.SQL.String())
 	return &user, nil
 }
 
@@ -143,17 +143,17 @@ func generateToken(user *User) (string, error) {
 	return signedToken, nil
 }
 
-func createRedisSession(ctx context.Context, userID int64, token string) error {
+func createRedisSession(userID int64, token string) error {
 	sessionKey := redisSessionPrefix + token
 	userKey := redisKeyPrefix + string(userID)
 	pipe := redisClient.Pipeline()
-	pipe.Set(ctx, sessionKey, userID, redisSessionExpire)
-	pipe.Set(ctx, userKey, token, redisKeyExpire)
-	_, err := pipe.Exec(ctx)
+	pipe.Set(context.Background(), sessionKey, userID, redisSessionExpire)
+	pipe.Set(context.Background(), userKey, token, redisKeyExpire)
+	_, err := pipe.Exec(context.Background())
 	return err
 }
 
-func getUserInfoHandler(ctx context.Context) http.HandlerFunc {
+func getUserInfoHandler() http.HandlerFunc {
 	return func(w http.ResponseWriter, r *http.Request) {
 		authHeader := r.Header.Get("Authorization")
 		if authHeader == "" {
