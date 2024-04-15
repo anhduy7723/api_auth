@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-15T20:41:25.954Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="OLYUWT7oQGZ0saLv6lH0" version="24.2.5" type="github" pages="33">
+<mxfile host="app.diagrams.net" modified="2024-04-15T20:42:13.550Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="t3bXlaWpJMrFTw4Grqhj" version="24.2.5" type="github" pages="33">
   <diagram name="use case tổng quát" id="_AZZmB38dTQ0q4q05li4">
     <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -800,7 +800,7 @@
             <mxPoint x="450" y="510" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7fOCnLTXFHAioNCqt3vi-72" value="10.Request to re-enter login information" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" source="7fOCnLTXFHAioNCqt3vi-66" target="7fOCnLTXFHAioNCqt3vi-70" edge="1">
+        <mxCell id="7fOCnLTXFHAioNCqt3vi-72" value="10.Thông báo lỗi" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" source="7fOCnLTXFHAioNCqt3vi-66" target="7fOCnLTXFHAioNCqt3vi-70" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="460" y="540" as="sourcePoint" />
             <mxPoint x="380" y="540" as="targetPoint" />
@@ -831,13 +831,6 @@
               <mxPoint x="710" y="480" />
             </Array>
             <mxPoint x="685" y="450" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="7fOCnLTXFHAioNCqt3vi-80" value="9.Lỗi" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;entryX=0.95;entryY=0.488;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="7fOCnLTXFHAioNCqt3vi-73" target="7fOCnLTXFHAioNCqt3vi-66" edge="1">
-          <mxGeometry x="0.125" y="25" relative="1" as="geometry">
-            <mxPoint x="590" y="552.5" as="sourcePoint" />
-            <mxPoint x="510" y="552.5" as="targetPoint" />
-            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
