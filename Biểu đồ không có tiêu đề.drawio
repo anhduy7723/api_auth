@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-15T14:28:57.481Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="15rVF40Z48_WP0TZNEN8" version="24.2.5" type="github" pages="33">
+<mxfile host="app.diagrams.net" modified="2024-04-15T15:12:05.758Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="6gh1lyWGpdL0oIj0by89" version="24.2.5" type="github" pages="33">
   <diagram name="use case tổng quát" id="_AZZmB38dTQ0q4q05li4">
-    <mxGraphModel dx="1781" dy="640" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2577" dy="928" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -213,49 +213,40 @@
     </mxGraphModel>
   </diagram>
   <diagram id="aEMhzs6LdVHCJXeIKsOB" name="Đăng nhập">
-    <mxGraphModel dx="954" dy="640" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1050" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="162GLP_RgZCGkwI9wRqq-11" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="162GLP_RgZCGkwI9wRqq-1" target="162GLP_RgZCGkwI9wRqq-10" edge="1">
+        <mxCell id="162GLP_RgZCGkwI9wRqq-11" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.026;entryY=0.397;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="162GLP_RgZCGkwI9wRqq-1" target="162GLP_RgZCGkwI9wRqq-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="162GLP_RgZCGkwI9wRqq-1" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
-          <mxGeometry x="40" y="120" width="30" height="60" as="geometry" />
+          <mxGeometry x="140" y="105" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="162GLP_RgZCGkwI9wRqq-9" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.421;entryY=0.986;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="162GLP_RgZCGkwI9wRqq-7" target="162GLP_RgZCGkwI9wRqq-10" edge="1">
+        <mxCell id="162GLP_RgZCGkwI9wRqq-9" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="162GLP_RgZCGkwI9wRqq-7" target="162GLP_RgZCGkwI9wRqq-10" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="120" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="162GLP_RgZCGkwI9wRqq-7" value="Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
-          <mxGeometry x="40" y="290" width="30" height="60" as="geometry" />
+          <mxGeometry x="140" y="220" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="162GLP_RgZCGkwI9wRqq-10" value="Log in" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="162GLP_RgZCGkwI9wRqq-10" value="Đăng nhập" style="ellipse;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="280" y="170" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="162GLP_RgZCGkwI9wRqq-13" value="Log out" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="520" y="80" width="140" height="70" as="geometry" />
+        <mxCell id="162GLP_RgZCGkwI9wRqq-14" value="Kiểm tra dữ liệu" style="ellipse;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="480" y="230" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="162GLP_RgZCGkwI9wRqq-14" value="Verify account" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="520" y="420" width="140" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="162GLP_RgZCGkwI9wRqq-15" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="162GLP_RgZCGkwI9wRqq-10" target="162GLP_RgZCGkwI9wRqq-14" edge="1">
+        <mxCell id="162GLP_RgZCGkwI9wRqq-15" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" parent="1" source="162GLP_RgZCGkwI9wRqq-10" target="162GLP_RgZCGkwI9wRqq-14" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="390" y="330" as="sourcePoint" />
             <mxPoint x="550" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="162GLP_RgZCGkwI9wRqq-16" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="162GLP_RgZCGkwI9wRqq-13" target="162GLP_RgZCGkwI9wRqq-10" edge="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="390" y="330" as="sourcePoint" />
-            <mxPoint x="550" y="330" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="162GLP_RgZCGkwI9wRqq-17" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Quên mật khẩu&lt;/font&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="490" y="120" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="162GLP_RgZCGkwI9wRqq-17" value="Change Password" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="520" y="240" width="140" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="162GLP_RgZCGkwI9wRqq-18" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="162GLP_RgZCGkwI9wRqq-10" edge="1">
+        <mxCell id="162GLP_RgZCGkwI9wRqq-18" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" target="162GLP_RgZCGkwI9wRqq-10" edge="1" source="162GLP_RgZCGkwI9wRqq-17">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="520" y="270" as="sourcePoint" />
             <mxPoint x="520" y="330" as="targetPoint" />
@@ -265,11 +256,11 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Rr1IvneOTqiWnxYq7bOk" name="Activity Đăng nhập">
-    <mxGraphModel dx="954" dy="640" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1050" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="hLECIlAd1a-snPFKLi9X-3" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="hLECIlAd1a-snPFKLi9X-2" edge="1">
+        <mxCell id="hLECIlAd1a-snPFKLi9X-3" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="hLECIlAd1a-snPFKLi9X-2" edge="1" source="amiNunbkOByrnNqyqyVC-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="110" y="185" as="sourcePoint" />
           </mxGeometry>
@@ -277,76 +268,79 @@
         <mxCell id="hLECIlAd1a-snPFKLi9X-5" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="hLECIlAd1a-snPFKLi9X-2" target="hLECIlAd1a-snPFKLi9X-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hLECIlAd1a-snPFKLi9X-2" value="Click the Account button" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="hLECIlAd1a-snPFKLi9X-2" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Nhấp vào nút Tài khoản&lt;/font&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;" parent="1" vertex="1">
           <mxGeometry x="200" y="155" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hLECIlAd1a-snPFKLi9X-4" value="Displays the login page" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="450" y="155" width="120" height="60" as="geometry" />
+        <mxCell id="hLECIlAd1a-snPFKLi9X-4" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Hiển thị trang đăng nhập&lt;/font&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;" parent="1" vertex="1">
+          <mxGeometry x="395" y="155" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hLECIlAd1a-snPFKLi9X-9" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="hLECIlAd1a-snPFKLi9X-6" target="hLECIlAd1a-snPFKLi9X-8" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="hLECIlAd1a-snPFKLi9X-6" value="Enter username and password" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="200" y="300" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="hLECIlAd1a-snPFKLi9X-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.408;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="hLECIlAd1a-snPFKLi9X-4" target="hLECIlAd1a-snPFKLi9X-6" edge="1">
+        <mxCell id="hLECIlAd1a-snPFKLi9X-9" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="hLECIlAd1a-snPFKLi9X-6" target="hLECIlAd1a-snPFKLi9X-10" edge="1">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="330" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="510" y="280" />
-              <mxPoint x="249" y="280" />
+              <mxPoint x="260" y="300" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="hLECIlAd1a-snPFKLi9X-11" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="hLECIlAd1a-snPFKLi9X-8" target="hLECIlAd1a-snPFKLi9X-10" edge="1">
+        <mxCell id="hLECIlAd1a-snPFKLi9X-6" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Nhập tên người dùng và mật khẩu&lt;/font&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;" parent="1" vertex="1">
+          <mxGeometry x="395" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hLECIlAd1a-snPFKLi9X-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="hLECIlAd1a-snPFKLi9X-4" target="hLECIlAd1a-snPFKLi9X-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="500" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hLECIlAd1a-snPFKLi9X-13" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="hLECIlAd1a-snPFKLi9X-10" target="hLECIlAd1a-snPFKLi9X-12" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="455" y="375" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hLECIlAd1a-snPFKLi9X-17" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="hLECIlAd1a-snPFKLi9X-10" target="hLECIlAd1a-snPFKLi9X-18" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="463" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hLECIlAd1a-snPFKLi9X-10" value="Kiểm tra dữ liệu đăng nhập" style="rhombus;whiteSpace=wrap;html=1;fillColor=#99CCFF;" parent="1" vertex="1">
+          <mxGeometry x="165" y="340" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="hLECIlAd1a-snPFKLi9X-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="hLECIlAd1a-snPFKLi9X-12" target="hLECIlAd1a-snPFKLi9X-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hLECIlAd1a-snPFKLi9X-8" value="Check login data" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="440" y="300" width="120" height="60" as="geometry" />
+        <mxCell id="hLECIlAd1a-snPFKLi9X-12" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Hiển thị lại lỗi đăng nhập&lt;/font&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;" parent="1" vertex="1">
+          <mxGeometry x="395" y="470" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hLECIlAd1a-snPFKLi9X-13" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="hLECIlAd1a-snPFKLi9X-10" target="hLECIlAd1a-snPFKLi9X-12" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="hLECIlAd1a-snPFKLi9X-17" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="hLECIlAd1a-snPFKLi9X-10" target="hLECIlAd1a-snPFKLi9X-16" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="hLECIlAd1a-snPFKLi9X-10" value="" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="430" y="410" width="140" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="hLECIlAd1a-snPFKLi9X-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="hLECIlAd1a-snPFKLi9X-12" target="hLECIlAd1a-snPFKLi9X-6" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="hLECIlAd1a-snPFKLi9X-12" value="Show login error again" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="270" y="400" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="hLECIlAd1a-snPFKLi9X-14" value="Wrong" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="380" y="428" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="hLECIlAd1a-snPFKLi9X-19" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="hLECIlAd1a-snPFKLi9X-16" target="hLECIlAd1a-snPFKLi9X-18" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="hLECIlAd1a-snPFKLi9X-16" value="Check login permissions and permissions" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="440" y="540" width="120" height="60" as="geometry" />
+        <mxCell id="hLECIlAd1a-snPFKLi9X-14" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Sai&lt;/font&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="420" y="420" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="hLECIlAd1a-snPFKLi9X-22" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="hLECIlAd1a-snPFKLi9X-18" target="hLECIlAd1a-snPFKLi9X-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hLECIlAd1a-snPFKLi9X-18" value="Display home page" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="440" y="650" width="120" height="60" as="geometry" />
+        <mxCell id="hLECIlAd1a-snPFKLi9X-18" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Hiển thị trang chủ&lt;/font&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;" parent="1" vertex="1">
+          <mxGeometry x="200" y="470" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hLECIlAd1a-snPFKLi9X-21" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" parent="1" vertex="1">
-          <mxGeometry x="485" y="770" width="30" height="30" as="geometry" />
+          <mxGeometry x="110" y="485" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3ctiAEbDpLno--GhvyDT-1" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;ĐÚNG&lt;/font&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="210" y="420" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GllnCD7zl5NW3kuZhLmP-2" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="amiNunbkOByrnNqyqyVC-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="185" as="sourcePoint" />
+            <mxPoint x="200" y="185" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="amiNunbkOByrnNqyqyVC-1" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" parent="1" vertex="1">
-          <mxGeometry x="80" y="170" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="3ctiAEbDpLno--GhvyDT-1" value="true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="490" y="478" width="40" height="30" as="geometry" />
+          <mxGeometry x="110" y="170" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="0v4ZYv-AFNDenqnxgtgv" name="Activity Đổi mật khẩu">
-    <mxGraphModel dx="954" dy="640" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1050" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -359,31 +353,31 @@
         <mxCell id="i2H_DMlgWhnRr8ZjFM-y-3" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="i2H_DMlgWhnRr8ZjFM-y-4" target="i2H_DMlgWhnRr8ZjFM-y-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="i2H_DMlgWhnRr8ZjFM-y-4" value="Click the Account button" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="i2H_DMlgWhnRr8ZjFM-y-4" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Nhấp vào nút Tài khoản&lt;/font&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="200" y="155" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="i2H_DMlgWhnRr8ZjFM-y-5" value="Displays the login page" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="450" y="155" width="120" height="60" as="geometry" />
+        <mxCell id="i2H_DMlgWhnRr8ZjFM-y-5" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Hiển thị trang đăng nhập&lt;/font&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="380" y="155" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="i2H_DMlgWhnRr8ZjFM-y-6" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="i2H_DMlgWhnRr8ZjFM-y-7" target="i2H_DMlgWhnRr8ZjFM-y-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="i2H_DMlgWhnRr8ZjFM-y-7" value="Enter username and password" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="200" y="300" width="120" height="60" as="geometry" />
+        <mxCell id="i2H_DMlgWhnRr8ZjFM-y-7" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Nhập tên người dùng và mật khẩu&lt;/font&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="290" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="i2H_DMlgWhnRr8ZjFM-y-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.408;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="i2H_DMlgWhnRr8ZjFM-y-5" target="i2H_DMlgWhnRr8ZjFM-y-7" edge="1">
+        <mxCell id="i2H_DMlgWhnRr8ZjFM-y-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="i2H_DMlgWhnRr8ZjFM-y-5" target="i2H_DMlgWhnRr8ZjFM-y-7" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="510" y="280" />
-              <mxPoint x="249" y="280" />
+              <mxPoint x="440" y="250" />
+              <mxPoint x="260" y="250" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="i2H_DMlgWhnRr8ZjFM-y-9" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="i2H_DMlgWhnRr8ZjFM-y-10" target="i2H_DMlgWhnRr8ZjFM-y-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="i2H_DMlgWhnRr8ZjFM-y-10" value="Check login data" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="440" y="300" width="120" height="60" as="geometry" />
+        <mxCell id="i2H_DMlgWhnRr8ZjFM-y-10" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Kiểm tra dữ liệu đăng nhập&lt;/font&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="410" y="290" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="i2H_DMlgWhnRr8ZjFM-y-11" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="i2H_DMlgWhnRr8ZjFM-y-13" target="i2H_DMlgWhnRr8ZjFM-y-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -392,51 +386,51 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="i2H_DMlgWhnRr8ZjFM-y-13" value="" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="430" y="410" width="140" height="50" as="geometry" />
+          <mxGeometry x="400" y="408" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="i2H_DMlgWhnRr8ZjFM-y-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="i2H_DMlgWhnRr8ZjFM-y-15" target="i2H_DMlgWhnRr8ZjFM-y-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="i2H_DMlgWhnRr8ZjFM-y-15" value="Show login error again" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="270" y="400" width="120" height="60" as="geometry" />
+        <mxCell id="i2H_DMlgWhnRr8ZjFM-y-15" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Hiển thị lại lỗi đăng nhập&lt;/font&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="405" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="i2H_DMlgWhnRr8ZjFM-y-16" value="wrong" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="380" y="428" width="60" height="30" as="geometry" />
+        <mxCell id="i2H_DMlgWhnRr8ZjFM-y-16" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;sai&lt;/font&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="390" y="428" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="i2H_DMlgWhnRr8ZjFM-y-17" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="i2H_DMlgWhnRr8ZjFM-y-18" target="i2H_DMlgWhnRr8ZjFM-y-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="i2H_DMlgWhnRr8ZjFM-y-18" value="Check login permissions and permissions" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="440" y="540" width="120" height="60" as="geometry" />
+        <mxCell id="i2H_DMlgWhnRr8ZjFM-y-18" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Kiểm tra quyền đăng nhập và quyền&lt;/font&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="410" y="530" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MZ3AeKt-reLdUj_JlQBp-2" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="i2H_DMlgWhnRr8ZjFM-y-20" target="MZ3AeKt-reLdUj_JlQBp-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="i2H_DMlgWhnRr8ZjFM-y-20" value="Display home page" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="440" y="650" width="120" height="60" as="geometry" />
+        <mxCell id="i2H_DMlgWhnRr8ZjFM-y-20" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Hiển thị trang chủ&lt;/font&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="410" y="650" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MZ3AeKt-reLdUj_JlQBp-4" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="MZ3AeKt-reLdUj_JlQBp-1" target="MZ3AeKt-reLdUj_JlQBp-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MZ3AeKt-reLdUj_JlQBp-1" value="Access account management" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="MZ3AeKt-reLdUj_JlQBp-1" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Truy cập quản lý tài khoản&lt;/font&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="250" y="650" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MZ3AeKt-reLdUj_JlQBp-6" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="MZ3AeKt-reLdUj_JlQBp-3" target="MZ3AeKt-reLdUj_JlQBp-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MZ3AeKt-reLdUj_JlQBp-3" value="Select the password editing function" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="MZ3AeKt-reLdUj_JlQBp-3" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Chọn chức năng chỉnh sửa mật khẩu&lt;/font&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="250" y="750" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MZ3AeKt-reLdUj_JlQBp-9" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="MZ3AeKt-reLdUj_JlQBp-5" target="MZ3AeKt-reLdUj_JlQBp-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MZ3AeKt-reLdUj_JlQBp-5" value="Enter your new password" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="MZ3AeKt-reLdUj_JlQBp-5" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Nhập mật khẩu mới của bạn&lt;/font&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="250" y="850" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MZ3AeKt-reLdUj_JlQBp-11" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="MZ3AeKt-reLdUj_JlQBp-8" target="MZ3AeKt-reLdUj_JlQBp-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MZ3AeKt-reLdUj_JlQBp-8" value="Check if the password matches" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="MZ3AeKt-reLdUj_JlQBp-8" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Kiểm tra xem mật khẩu có khớp không&lt;/font&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="430" y="850" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MZ3AeKt-reLdUj_JlQBp-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="MZ3AeKt-reLdUj_JlQBp-10" target="MZ3AeKt-reLdUj_JlQBp-5" edge="1">
@@ -454,14 +448,14 @@
         <mxCell id="MZ3AeKt-reLdUj_JlQBp-17" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="MZ3AeKt-reLdUj_JlQBp-14" target="MZ3AeKt-reLdUj_JlQBp-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MZ3AeKt-reLdUj_JlQBp-14" value="Confirmation message to change password" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="MZ3AeKt-reLdUj_JlQBp-14" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Tin nhắn xác nhận thay đổi mật khẩu&lt;/font&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="630" y="980" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MZ3AeKt-reLdUj_JlQBp-16" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" parent="1" vertex="1">
           <mxGeometry x="675" y="1100" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="L5dQlOBKW5IyZHkK47Ha-1" value="true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="490" y="468" width="40" height="30" as="geometry" />
+        <mxCell id="L5dQlOBKW5IyZHkK47Ha-1" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;ĐÚNG&amp;nbsp;&lt;/font&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="480" y="468" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="L5dQlOBKW5IyZHkK47Ha-2" value="true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="570" y="978" width="40" height="30" as="geometry" />
